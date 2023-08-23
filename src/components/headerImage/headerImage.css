@@ -1,0 +1,58 @@
+.headerImage__container {
+    width: 100%;
+    background-color: #f4f4f4;
+    position: relative; 
+  }
+  
+  .headerImage__container-content {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative; 
+  }
+  
+  .headerImage__container-content img {
+    width: 70%;
+    max-width: 700px;
+  }
+  
+  .image-title {
+    font-size: 1.8em;
+    position: absolute;
+    top: 50%;
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 1160px) {
+    .image-title {  
+    right: unset;
+    left: 25%;
+    width: max-content;
+    max-width: 370px;
+    }
+  }
+
+    
+  @media screen and (max-width: 905px) {
+    .image-title {  
+    right: unset;
+    max-width: 320px;
+    left: 32%;
+    font-size: 1.5rem;
+    }
+  }
+
+      
+  @media screen and (max-width: 650px) {
+    .image-title {  
+    right: unset;
+    max-width: unset;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    font-size: 1.5rem;
+    }
+  }

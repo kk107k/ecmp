@@ -1,0 +1,55 @@
+.about__container {
+    background-image: url('../../assets/burj khalifa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse; /* Reversed for bottom alignment */
+    justify-content: flex-end; /* Align content to the bottom */
+    align-items: flex-end;
+    font-family: var(--font-family);
+}
+
+
+.about__container-content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    margin-right: 1.3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about__container-content h1{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about__container-content h2{
+    font-size: 1.2rem;
+    color: var(--color-text-green);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about__container-content p{
+    color: #fff;
+    line-height: 1.8rem;
+}
+
+.about__container-content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--color-text-blue);
+    font-size: 0.9rem;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+}

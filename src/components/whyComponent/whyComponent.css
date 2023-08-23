@@ -1,0 +1,110 @@
+.why__container-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #4B4F58;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px;
+}
+
+.why__container-component hr {
+    margin: auto;
+    width: 90%;
+    border-color: var(--color-text-lightblue);
+}
+
+.why__container-component__heading-container {
+    margin-bottom: 20px;
+}
+.why__container-component__heading img {
+    width: 50px;
+    height: 50px;
+}
+
+.why__container-component__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.why__container-component__heading h3 {
+    font-size: 1.1rem;
+    color: #fff;
+    width: 50%;
+    line-height: 1.4rem;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why__container-component__heading__line hr{
+    margin-top: 20px;
+    
+}
+.why__container-component__text{
+    line-height: 1.7rem;
+    color: var(--color-text-lightblue);
+    width: 90%;
+    min-height: 150px;
+    height: 200px;
+    margin: 0px auto 10px auto;
+    
+}
+
+.why__container-component__text p{
+    font-size: 0.9rem;
+    
+}
+
+.why__container-component__button a {
+    display: flex;
+    align-items: center;
+}
+
+.why__container-component__button p{
+    color: #dbe2f6;
+    font-size: 0.7rem;
+    text-decoration: none;
+    width: 80px;
+}
+.why__container-component__button img{
+    width: 12px;
+    border-radius: 10px;
+}
+.why__container-component__button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 90%;
+}
+
+.why__container-component__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 0px 15px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .why__container-component {
+        width: 90%;
+    }
+
+    .why__container-component__heading {
+        flex-direction: column;    
+    }
+
+    .why__container-component__heading img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .why__container-component__text {
+        min-height: unset;
+        height: 70px;
+    }
+}
