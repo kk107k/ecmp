@@ -1,0 +1,121 @@
+Date : 2023-08-24 02:34:05
+Directory : c:\Users\97152\OneDrive\Desktop\ecmp
+Total : 62 files,  14725 codes, 58 comments, 395 blanks, all 15178 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          3 |     12,607 |          0 |          3 |     12,610 |
+| CSS            |         19 |      1,139 |         28 |        206 |      1,373 |
+| JavaScript JSX |         16 |        556 |         28 |         82 |        666 |
+| JavaScript     |         21 |        362 |          2 |         69 |        433 |
+| Markdown       |          1 |         38 |          0 |         33 |         71 |
+| HTML           |          1 |         22 |          0 |          2 |         24 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                       |         62 |     14,725 |         58 |        395 |     15,178 |
+| . (Files)                                                                               |          3 |     12,620 |          0 |         35 |     12,655 |
+| public                                                                                  |          2 |         47 |          0 |          3 |         50 |
+| src                                                                                     |         57 |      2,058 |         58 |        357 |      2,473 |
+| src (Files)                                                                             |          5 |        102 |          0 |         19 |        121 |
+| src\assets                                                                              |          1 |          1 |          0 |          0 |          1 |
+| src\components                                                                          |         17 |        667 |          0 |        109 |        776 |
+| src\components (Files)                                                                  |          1 |          7 |          0 |          0 |          7 |
+| src\components\contactUs                                                                |          2 |          8 |          0 |          3 |         11 |
+| src\components\footer                                                                   |          2 |        246 |          0 |         27 |        273 |
+| src\components\headerComponent                                                          |          2 |          8 |          0 |          3 |         11 |
+| src\components\headerImage                                                              |          2 |         64 |          0 |         11 |         75 |
+| src\components\methodComponent                                                          |          2 |         43 |          0 |         11 |         54 |
+| src\components\navbar                                                                   |          2 |        145 |          0 |         29 |        174 |
+| src\components\service                                                                  |          2 |         20 |          0 |          2 |         22 |
+| src\components\whyComponent                                                             |          2 |        126 |          0 |         23 |        149 |
+| src\containers                                                                          |         20 |      1,142 |         58 |        200 |      1,400 |
+| src\containers (Files)                                                                  |          1 |         11 |          0 |          0 |         11 |
+| src\containers\about                                                                    |          2 |         67 |          0 |         10 |         77 |
+| src\containers\about2                                                                   |          2 |        161 |          0 |         33 |        194 |
+| src\containers\clientele                                                                |          2 |         39 |          0 |          5 |         44 |
+| src\containers\connect                                                                  |          2 |        239 |         54 |         44 |        337 |
+| src\containers\header                                                                   |          2 |         10 |          0 |          4 |         14 |
+| src\containers\imageSlider                                                              |          3 |        227 |          4 |         46 |        277 |
+| src\containers\methods                                                                  |          2 |         95 |          0 |         14 |        109 |
+| src\containers\services                                                                 |          2 |        203 |          0 |         27 |        230 |
+| src\containers\why                                                                      |          2 |         90 |          0 |         17 |        107 |
+| src\pages                                                                               |         14 |        146 |          0 |         29 |        175 |
+| src\pages (Files)                                                                       |          7 |         76 |          0 |         11 |         87 |
+| src\pages\servicesPages                                                                 |          7 |         70 |          0 |         18 |         88 |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\97152\OneDrive\Desktop\ecmp\README.md                                          | Markdown       |         38 |          0 |         33 |         71 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\package-lock.json                                  | JSON           |     12,535 |          0 |          1 |     12,536 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\package.json                                       | JSON           |         47 |          0 |          1 |         48 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\public\index.html                                  | HTML           |         22 |          0 |          2 |         24 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\public\manifest.json                               | JSON           |         25 |          0 |          1 |         26 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\App.css                                        | CSS            |         25 |          0 |          4 |         29 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\App.js                                         | JavaScript     |         34 |          0 |          4 |         38 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\News.js                                        | JavaScript     |         12 |          0 |          5 |         17 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\assets\caret-right-solid.svg                   | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\contactUs\ContactUs.jsx             | JavaScript JSX |          8 |          0 |          2 |         10 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\contactUs\contactUs.css             | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\footer\Footer.jsx                   | JavaScript JSX |         86 |          0 |          4 |         90 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\footer\footer.css                   | CSS            |        160 |          0 |         23 |        183 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\headerComponent\HeaderComponent.jsx | JavaScript JSX |          8 |          0 |          2 |         10 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\headerComponent\headerComponent.css | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\headerImage\HeaderImage.jsx         | JavaScript JSX |         14 |          0 |          3 |         17 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\headerImage\headerImage.css         | CSS            |         50 |          0 |          8 |         58 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\index.js                            | JavaScript     |          7 |          0 |          0 |          7 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\methodComponent\MethodComponent.jsx | JavaScript JSX |         20 |          0 |          6 |         26 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\methodComponent\methodComponent.css | CSS            |         23 |          0 |          5 |         28 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\navbar\Navbar.jsx                   | JavaScript JSX |         38 |          0 |          9 |         47 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\navbar\navbar.css                   | CSS            |        107 |          0 |         20 |        127 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\service\Service.jsx                 | JavaScript JSX |         20 |          0 |          1 |         21 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\service\service.css                 | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\whyComponent\WhyComponent.jsx       | JavaScript JSX |         33 |          0 |          6 |         39 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\components\whyComponent\whyComponent.css       | CSS            |         93 |          0 |         17 |        110 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\about2\About2.jsx                   | JavaScript JSX |         35 |          0 |          8 |         43 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\about2\about2.css                   | CSS            |        126 |          0 |         25 |        151 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\about\About.jsx                     | JavaScript JSX |         18 |          0 |          4 |         22 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\about\about.css                     | CSS            |         49 |          0 |          6 |         55 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\clientele\Clientele.jsx             | JavaScript JSX |         13 |          0 |          2 |         15 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\clientele\clientele.css             | CSS            |         26 |          0 |          3 |         29 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\connect\Connect.jsx                 | JavaScript JSX |         70 |         28 |         12 |        110 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\connect\connect.css                 | CSS            |        169 |         26 |         32 |        227 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\header\Header.jsx                   | JavaScript JSX |         10 |          0 |          3 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\header\header.css                   | CSS            |          0 |          0 |          1 |          1 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\imageSlider\ImageSlider.js          | JavaScript     |        136 |          1 |         26 |        163 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\imageSlider\imageSlider.css         | CSS            |         85 |          2 |         18 |        105 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\imageSlider\slidesData.js           | JavaScript     |          6 |          1 |          2 |          9 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\index.js                            | JavaScript     |         11 |          0 |          0 |         11 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\methods\Methods.jsx                 | JavaScript JSX |         52 |          0 |          7 |         59 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\methods\methods.css                 | CSS            |         43 |          0 |          7 |         50 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\services\Services.jsx               | JavaScript JSX |         80 |          0 |          4 |         84 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\services\services.css               | CSS            |        123 |          0 |         23 |        146 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\why\Why.jsx                         | JavaScript JSX |         51 |          0 |          9 |         60 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\containers\why\why.css                         | CSS            |         39 |          0 |          8 |         47 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\index.css                                      | CSS            |         21 |          0 |          3 |         24 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\index.js                                       | JavaScript     |         10 |          0 |          3 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\AboutPage.js                             | JavaScript     |          8 |          0 |          2 |         10 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\ContactPage.js                           | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\Home.js                                  | JavaScript     |         15 |          0 |          1 |         16 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\IndustriesPage.js                        | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\NewsPage.js                              | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\TeamPage.js                              | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\index.js                                 | JavaScript     |         13 |          0 |          0 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\CorporateAdvisory.js       | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\CorporateFinance.js        | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\ESG.js                     | JavaScript     |         10 |          0 |          3 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\RiskAdvisory.js            | JavaScript     |         10 |          0 |          2 |         12 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\Strategy.js                | JavaScript     |         10 |          0 |          3 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\Technology.js              | JavaScript     |         10 |          0 |          3 |         13 |
+| c:\Users\97152\OneDrive\Desktop\ecmp\src\pages\servicesPages\TransactionManagement.js   | JavaScript     |         10 |          0 |          3 |         13 |
+| Total                                                                                   |                |     14,725 |         58 |        395 |     15,178 |
++-----------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import './connect.css'
 import background from '../../assets/contactUs.png'

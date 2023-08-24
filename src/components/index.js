@@ -5,3 +5,5 @@ export {default as Method} from './methodComponent/MethodComponent'
 export {default as Contact} from './contactUs/ContactUs'
 export {default as Header} from "./headerComponent/HeaderComponent"
 export {default as HeaderImage} from "./headerImage/HeaderImage"
+export {default as NewsComponent} from "./newsComponent/NewsComponent"
+export {default as NewsPageComponent} from "./newsPageComponent/NewsPageComponent"
