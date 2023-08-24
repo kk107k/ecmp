@@ -1,5 +1,5 @@
 import React from 'react'
-
+import axios from 'axios'
 import { Footer  } from './containers'
 import {Navbar} from './components'
 import {Home, AboutPage, IndustriesPage, NewsPage, TeamsPage, ContactPage, CorporateAdvisory, CorporateFinance, ESG, RiskAdvisory, Strategy ,Technology ,TransactionManagement, News1} from './pages'

@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import axios from 'axios';
 import { Link } from 'react-router-dom'
 import logo from '../../assets/emcp logo w writing.png'
 import location from '../../assets/location.png'
@@ -8,11 +9,69 @@ import mail from '../../assets/mail.png'
 import linkedin from '../../assets/linkedin.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import {useState, useEffect} from 'react'
 const arrow = <FontAwesomeIcon icon={faCaretRight} style={{ color: "#ffffff" }} />;
 
 
 
 const Footer = () => {
+  
+
+    // form states
+    const [name, setName]=useState('');
+    const [email, setEmail]=useState('');
+  
+    // retrived data state
+    const [data, setData]=useState([]);
+  
+    // submit event
+    const handleSubmit = (e) => {
+      e.preventDefault();
+    
+      const data = {
+        name,
+        email,
+      };
+    
+      axios.post('https://sheet.best/api/sheets/d155445f-6083-458d-98c9-92b6dd2c3403', data)
+        .then(response => {
+          setName('');
+          setEmail('');
+        })
+        .catch(error => {
+          if (error.response && error.response.status === 404) {
+            // Handle the 404 error here if needed
+            console.log(error);
+          } else {
+            // Handle other errors here if needed
+            console.log(error);
+          }
+        });
+    }
+    // getting data function
+    const getData = () => {
+      axios.get('https://sheet.best/api/sheets/e7a8bead-e947-4de5-9421-8e17433a3fff')
+        .then(response => {
+          setData(response.data);
+        })
+        .catch(error => {
+          if (error.response && error.response.status === 404) {
+            console.error('Error: Request failed with status code 404');
+            // Handle the 404 error here if needed
+          } else {
+            console.error('An error occurred:', error);
+            // Handle other errors here if needed
+          }
+        });
+    }
+    
+  
+    // triggering function
+    useEffect(()=>{
+      getData();
+    },[data])
+
+
   return (
     <div className='footer__container'>
       <div className='footer__container-content'>
@@ -70,9 +129,13 @@ const Footer = () => {
         </div>
         <div className='footer__container-content-newsletter'>
           <h1>Newsletter</h1>
-          <form>
-          <input placeholder='Name'></input>
-          <input placeholder='Email'></input>
+          <form onSubmit={handleSubmit}>
+          <input placeholder='Name' name='name' required 
+          onChange={(e)=>setName(e.target.value)}
+          value={name}></input>
+          <input placeholder='Email' name='email' required
+          onChange={(e)=>setEmail(e.target.value)}
+          value={email}></input>
           <div className='footer__container-content-newsletter-button'>
           <button type='submit'>Submit</button>
           </div>

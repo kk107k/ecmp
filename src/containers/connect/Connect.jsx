@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import emailjs from '@emailjs/browser';
 import './connect.css'
 import background from '../../assets/contactUs.png'
@@ -8,7 +8,7 @@ import logo from '../../assets/contactUs logo img.png'
 
 const Connect = () => {
 
-  const [formState, setFormState] = useState({});
+  /* const [formState, setFormState] = useState({});
 
   const changeHandler = (event) => { 
     setFormState({...formState, [event.target.name]: event.target.value})
@@ -33,7 +33,7 @@ const Connect = () => {
     if(window.Email) {
       window.Email.send(config).then(() => alert('email sent successfully'));
     }
-  }
+  } */
 
  /*  const form = useRef();
 
@@ -57,7 +57,7 @@ const Connect = () => {
         </div>
         <div className="connect__container-form-container">
           <div className="connect__container-form">
-    <form onSubmit={submitHandler}>
+    <form action="https://formsubmit.co/19b5e0e38fedef472914ab41c836d8c0" method="POST">
       <div className="connect__container-form-contents">
       <div className="connect__container-form-title">
         <h2>Connect with us</h2>
@@ -65,22 +65,25 @@ const Connect = () => {
       </div>
       <div className="connect__container-form-inputs">
       <div className="connect__container-form-name">
-      <input type="text" name="name" placeholder='First Name:' onChange={changeHandler}/>
-      <input type="text" name="lastName" placeholder='Last Name:' onChange={changeHandler}/>
+      <input type="text" name="name" placeholder='First Name:' />
+      <input type="text" name="lastName" placeholder='Last Name:' />
       </div>
       <div className="connect__container-form-contact_info">
-      <input type="email" name="email" placeholder='Your Email:' onChange={changeHandler}/>
-      <input type="number" name="phone" placeholder='Your Phone:' onChange={changeHandler}/>
+      <input type="email" name="email" placeholder='Your Email:' />
+      <input type="number" name="phone" placeholder='Your Phone:' />
       </div>
       <div className="connect__container-form-company">
-      <input type="text" name="company" placeholder='Your Company:' onChange={changeHandler}/>
-      <input type="text" name="subject" placeholder='Subject:' onChange={changeHandler}/>
+      <input type="text" name="company" placeholder='Your Company:' />
+      <input type="text" name="subject" placeholder='Subject:' />
         </div>
       </div>
       <div className='connect__container-form-message'>
       <textarea name="message" placeholder='Your Message' />
       </div>
       <div className="connect__container-form-submit">
+      <input type="hidden" name="_autoresponse" value="Thank you for your email, We will get back to you shortly"></input>
+      <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+      <input type="hidden" name="_captcha" value="false"></input>
       <input type="submit" value="Send Email" />
       </div>
       </div>
