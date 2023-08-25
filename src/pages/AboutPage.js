@@ -3,7 +3,9 @@ import { HeaderImage  } from '../components'
 
 const AboutPage = () => {
   return (
-    <div><HeaderImage title="About Our Company"/></div>
+    <div><HeaderImage title="About Our Company"/>
+    
+    </div>
   )
 }
 

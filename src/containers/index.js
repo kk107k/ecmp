@@ -9,3 +9,9 @@ export {default as Services} from './services/Services';
 export {default as Why} from './why/Why';
 export {default as ImageSlider} from './imageSlider/ImageSlider';
 export {default as slidesData} from './imageSlider/slidesData';
+
+//Page containers
+
+//Contact page containers
+export {default as ContactPageForm} from './pageContainers/contactPageContainers/contactPageForm/ContactPageForm';
+export {default as ContactPageInfo} from './pageContainers/contactPageContainers/contactPageInfo/ContactPageInfo';
