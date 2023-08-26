@@ -12,6 +12,8 @@
     --color-bg-blue: #01172F;
     --color-bg-why-blue: #082342;
     --color-text-lightblue: #6880A1;
+    --color-text-darkblue: #00174d;
+    --color-line: #d2d3f7;
 }
 .color_bg-blue {
     background-color: var(--color-bg-blue);
