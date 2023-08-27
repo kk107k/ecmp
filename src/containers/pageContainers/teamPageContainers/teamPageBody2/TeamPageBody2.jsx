@@ -19,16 +19,16 @@ const TeamPageBody2 = () => {
         <h1>Execution Team :</h1>
         </div>
       <div className='team-page-body2__content'>
-        <TeamComponent img={jeremy} text={"Jeremy Shaw FCA"} link={"/"}/>
-        <TeamComponent img={george} text={"George Abraham"} link={"/news"}/>
-        <TeamComponent img={pillai} text={"A S Pillai"} link={"/"}/>
-        <TeamComponent img={rupa} text={"Rupa Shyamraj"} link={"/news"}/>
-        <TeamComponent img={yousif} text={"Yousif Al Suwaidi"} link={"/"}/>
-        <TeamComponent img={mona} text={"Mona Zeineldin"} link={"/news"}/>
-        <TeamComponent img={zahid} text={"Zahid Rashid"} link={"/"}/>
-        <TeamComponent img={kaj} text={"Kaj Christenson"} link={"/news"}/>
-        <TeamComponent img={gareth} text={"Gareth Watts"} link={"/"}/>
-        <TeamComponent img={badr} text={"Badr Soueidan"} link={"/news"}/>
+        <TeamComponent img={jeremy} text={"Jeremy Shaw FCA"} link={"/jeremy-shaw"}/>
+        <TeamComponent img={george} text={"George Abraham"} link={"/george-abraham"}/>
+        <TeamComponent img={pillai} text={"A S Pillai"} link={"/A-S-pillai"} />
+        <TeamComponent img={rupa} text={"Rupa Shyamraj"} link={"/rupa-shyamraj"} />
+        <TeamComponent img={yousif} text={"Yousif Al Suwaidi"} link={"/yousif-al-suwaidi"} />
+        <TeamComponent img={mona} text={"Mona Zeineldin"} link={"/mona-zeineldin"} />
+        <TeamComponent img={zahid} text={"Zahid Rashid"} link={"/zahid-rashid"} />
+        <TeamComponent img={kaj} text={"Kaj Christenson"} link={"/kaj-christenson"} />
+        <TeamComponent img={gareth} text={"Gareth Watts"} link={"/gareth-watts"} />
+        <TeamComponent img={badr} text={"Badr Soueidan"} link={"/badr-soueidan"} />
         </div>
     </div>
   )

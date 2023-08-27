@@ -17,3 +17,19 @@ export {default as TransactionManagement} from './servicesPages/TransactionManag
 
 //News Pages
 export {default as News1} from './newsPages/edition31102022';
+
+//Team Member Pages
+export {default as FaisalGaladari} from './teamMemberPages/FaisalGaladari';
+export {default as FarrukhSiddiqui} from './teamMemberPages/FarrukhSiddiqui';
+export {default as KhamisMohamed} from './teamMemberPages/KhamisMohamed';
+export {default as AhmedSaeed} from './teamMemberPages/AhmedSaeed';
+export {default as JeremyShaw} from './teamMemberPages/JeremyShaw';
+export {default as GeorgeAbraham} from './teamMemberPages/GeorgeAbraham';
+export {default as ASPillai} from './teamMemberPages/ASPillai';
+export {default as RupaShyamraj} from './teamMemberPages/RupaShyamraj';
+export {default as YousifAlSuwaidi} from './teamMemberPages/YousifAlSuwaidi';
+export {default as MonaZeineldin} from './teamMemberPages/MonaZeineldin';
+export {default as ZahidRashid} from './teamMemberPages/ZahidRashid';
+export {default as KajChristenson} from './teamMemberPages/KajChristenson';
+export {default as GarethWatts} from './teamMemberPages/GarethWatts';
+export {default as BadrSoueidan} from './teamMemberPages/BadrSoueidan';

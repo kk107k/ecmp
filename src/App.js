@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { Footer  } from './containers'
 import {Navbar} from './components'
-import {Home, AboutPage, IndustriesPage, NewsPage, TeamsPage, ContactPage, CorporateAdvisory, CorporateFinance, ESG, RiskAdvisory, Strategy ,Technology ,TransactionManagement, News1} from './pages'
+import {Home, AboutPage, IndustriesPage, NewsPage, TeamsPage, ContactPage, CorporateAdvisory, CorporateFinance, ESG, RiskAdvisory, Strategy ,Technology ,TransactionManagement, News1, FaisalGaladari, FarrukhSiddiqui, KhamisMohamed, AhmedSaeed, JeremyShaw, GeorgeAbraham, ASPillai, RupaShyamraj, YousifAlSuwaidi, MonaZeineldin,ZahidRashid, KajChristenson, GarethWatts, BadrSoueidan} from './pages'
 import './App.css'
 import { Route, Routes } from "react-router-dom"
 
@@ -30,6 +30,22 @@ const App = () => {
 
         {/* News pages go down here */}
         <Route path="/news/2022/10/31" element={<News1 />} />
+
+        {/* Team member pages go down here */}
+        <Route path="/faisal-galadari" element={<FaisalGaladari />} />
+        <Route path="/farrukh-siddiqui" element={<FarrukhSiddiqui />} />
+        <Route path="/khamis-mohamed" element={<KhamisMohamed />} />
+        <Route path="/ahmed-saeed" element={<AhmedSaeed />} />
+        <Route path="/jeremy-shaw" element={<JeremyShaw />} />
+        <Route path="/george-abraham" element={<GeorgeAbraham />} />
+        <Route path="/A-S-pillai" element={<ASPillai />} />
+        <Route path="/rupa-shyamraj" element={<RupaShyamraj />} />
+        <Route path="/yousif-al-suwaidi" element={<YousifAlSuwaidi />} />
+        <Route path="/mona-zeineldin" element={<MonaZeineldin />} />
+        <Route path="/zahid-rashid" element={<ZahidRashid />} />
+        <Route path="/kaj-christenson" element={<KajChristenson />} />
+        <Route path="/gareth-watts" element={<GarethWatts />} />
+        <Route path="/badr-soueidan" element={<BadrSoueidan />} />
 
       </Routes>
       <Footer />

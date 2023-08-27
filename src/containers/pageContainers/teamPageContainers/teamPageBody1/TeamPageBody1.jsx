@@ -14,8 +14,8 @@ const TeamPageBody1 = () => {
         <h1>Founding Partner :</h1>
       </div>
       <div className='team-page-body-one__container-component'>
-        <TeamComponent img={faisal} text={"Faisal Galadari"} link={"/"}/>
-        <TeamComponent img={farrukh} text={"Farrukh Siddiqui"} link={"/news"}/>  
+        <TeamComponent img={faisal} text={"Faisal Galadari"} link={"/faisal-galadari"}/>
+        <TeamComponent img={farrukh} text={"Farrukh Siddiqui"} link={"/farrukh-siddiqui"}/>  
       </div>
       </div>
       <div className='team-page-body-one__container-advisory'>
@@ -23,8 +23,8 @@ const TeamPageBody1 = () => {
         <h1>Advisory Board :</h1>
       </div>
       <div className='team-page-body-one__container-component'>
-        <TeamComponent img={khamis} text={"Khamis Mohamed Buharoon Al Shamsi"} link={"/"}/>
-        <TeamComponent img={ahmed} text={"Ahmed Saeed Bin Braik"} link={"/news"}/>  
+        <TeamComponent img={khamis} text={"Khamis Mohamed Buharoon Al Shamsi"} link={"/khamis-mohamed"}/>
+        <TeamComponent img={ahmed} text={"Ahmed Saeed Bin Braik"} link={"/ahmed-saeed"}/>  
       </div>
         </div>
     </div>
