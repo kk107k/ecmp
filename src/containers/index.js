@@ -30,3 +30,13 @@ export {default as IndustriesPageHeading} from './pageContainers/industriesPageC
 export {default as IndustriesPageBody1} from './pageContainers/industriesPageContainers/industriesPageBody1/IndustriesPageBody1';
 export {default as IndustriesPageBody2} from './pageContainers/industriesPageContainers/industriesPageBody2/IndustriesPageBody2';
 export {default as IndustriesPageTabs} from './pageContainers/industriesPageContainers/industriesPageTabs/IndustriesPageTabs';
+
+//Team page containers
+export {default as TeamPageHeading} from './pageContainers/teamPageContainers/teamPageHeading/TeamPageHeading';
+export {default as TeamPageBody1} from './pageContainers/teamPageContainers/teamPageBody1/TeamPageBody1';
+export {default as TeamPageBody2} from './pageContainers/teamPageContainers/teamPageBody2/TeamPageBody2';
+
+
+
+
+

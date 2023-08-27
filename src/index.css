@@ -14,6 +14,7 @@
     --color-text-lightblue: #6880A1;
     --color-text-darkblue: #00174d;
     --color-line: #d2d3f7;
+    --color-bg-lightgrey: #ffffff;
 }
 .color_bg-blue {
     background-color: var(--color-bg-blue);
@@ -23,4 +24,8 @@
 }
 .color_bg-lightblue {
     background-color: var(--color-bg-lightblue);
+}
+
+.color_bg-lightgrey {
+    background-color: var(--color-bg-lightgrey);
 }

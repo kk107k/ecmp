@@ -14,6 +14,7 @@
     font-weight: bold;
     z-index: 999;
     overflow: hidden;
+    font-size: 0.9rem;
 }
 img {
     width: 220px;
@@ -62,8 +63,11 @@ img {
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 792px) {
 
+.nav {
+  font-size: 0.8rem;
+}
 #items {
     flex-direction: column;
     width: 350px;

@@ -88,7 +88,8 @@
     font-size: 0.6rem;
     line-height: 1.4rem;
     color: #fff;
-    margin: 5px 0px 0px 2px
+    margin: 5px 0px 0px 2px;
+    text-decoration: none;
 }
 
 .footer__container-content-information-location p,
