@@ -20,13 +20,13 @@ const App = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/team" element={<TeamsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/corporate-advisory" element={<CorporateAdvisory />} />
-        <Route path="/corporate-finance" element={<CorporateFinance />} />
-        <Route path="/risk-advisory" element={<RiskAdvisory />} />
+        <Route path="/Corporate-Advisory" element={<CorporateAdvisory />} />
+        <Route path="/Corporate-Finance" element={<CorporateFinance />} />
+        <Route path="/Risk-Advisory" element={<RiskAdvisory />} />
         <Route path="/Strategic-CEO-and-CFO-Services" element={<Strategy />} />
         <Route path="/Transation-Management-And-M-And-A" element={<TransactionManagement />} />
-        <Route path="/esg-services" element={<ESG />} />
-        <Route path="/technology" element={<Technology />} />
+        <Route path="/Esg-services" element={<ESG />} />
+        <Route path="/Technology" element={<Technology />} />
 
         {/* News pages go down here */}
         <Route path="/news/2022/10/31" element={<News1 />} />

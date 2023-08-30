@@ -6,7 +6,7 @@ const ServiceNavbar = () => {
   return (
     <div className='service-navbar__container'>
         <ul>
-            <li><Link to={'/Corporate-Support'}>Corporate Support</Link></li>
+            <li><Link to={'/Corporate-Advisory'}>Corporate Support</Link></li>
             <li><Link to={'/Corporate-Finance'}>Corprate Finance</Link></li>
             <li><Link to={'/Risk-Advisory'}>Risk Advisory</Link></li>
             <li><Link to={'/Strategic-CFO-Services'}>Strategic CFO Services</Link></li>

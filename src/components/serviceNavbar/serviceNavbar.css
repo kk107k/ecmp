@@ -1,14 +1,10 @@
-.service-navbar__container {
-    width: 100%;
-}
-
 .service-navbar__container li{
     display: flex;
     align-items: center;
     padding-left: 15px;
     margin: 2px;
     background-color: #33f5c4;
-    width: 160px;
+    width: 220px;
     height: 37px;
     
 }
@@ -24,16 +20,16 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .service-navbar__container li{
         width: 100px;
         height: 40px;
         padding-left: 10px;
         padding-right: 10px;
     }
-}
+} */
 
-@media screen and (max-width: 618px) {
+@media screen and (max-width: 650px) {
     .service-navbar__container li{
         width: 100%;
     }

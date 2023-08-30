@@ -13,10 +13,10 @@ const TeamMemberPageComponent = ({title,img,text,text2}) => {
                     <img src={img} />
                     <p>{text}</p>
                     </div>
-            </div>
+        </div>
             
-            <div className='team-member-page-component__container-servicebar'>
-        <ServiceNavbar />
+        <div className='team-member-page-component__container-servicebar'>
+          <ServiceNavbar />
         </div>
     </div>
   )

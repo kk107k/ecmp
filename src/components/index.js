@@ -9,3 +9,5 @@ export {default as NewsPageComponent} from "./newsPageComponent/NewsPageComponen
 export {default as TeamComponent} from "./teamComponent/TeamComponent"
 export {default as TeamMemberPageComponent} from "./teamMemberPageComponent/TeamMemberPageComponent"
 export {default as ServiceNavbar} from "./serviceNavbar/ServiceNavbar"
+export {default as QuickContactComponent} from './quickContactComponent/QuickContactComponent'
+export {default as ServicePageComponent} from './servicePageComponent/ServicePageComponent'
