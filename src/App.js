@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/Corporate-Finance" element={<CorporateFinance />} />
         <Route path="/Risk-Advisory" element={<RiskAdvisory />} />
         <Route path="/Strategic-CEO-and-CFO-Services" element={<Strategy />} />
-        <Route path="/Transation-Management-And-M-And-A" element={<TransactionManagement />} />
+        <Route path="/Transation-Management-And-M&A" element={<TransactionManagement />} />
         <Route path="/Esg-services" element={<ESG />} />
         <Route path="/Technology" element={<Technology />} />
 
