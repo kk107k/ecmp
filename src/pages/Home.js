@@ -1,15 +1,18 @@
 import React from 'react'
 import {About, About2, Clientele, Connect, Footer, Methods, Services, Why, ImageSlider, slidesData,} from '../containers'
+import { Navbar } from '../components'
 const Home = () => {
   return (
-    <div><ImageSlider slides={slidesData} parentWidth={2000} />
-    <Services /> {/* needs work */}
+    <div>
+    <ImageSlider slides={slidesData} parentWidth={2000} />
+    <Services /> 
     <About />
     <About2 />
     <Why />
-    <Methods /> {/* needs work */}
+    <Methods /> 
     <Clientele />
-    <Connect /></div>
+    <Connect />
+    </div>
   )
 }
 
