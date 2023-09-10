@@ -17,14 +17,11 @@ const arrow = <FontAwesomeIcon icon={faCaretRight} style={{ color: "#ffffff" }} 
 const Footer = () => {
   
 
-    // form states
     const [name, setName]=useState('');
     const [email, setEmail]=useState('');
   
-    // retrived data state
     const [data, setData]=useState([]);
   
-    // submit event
     const handleSubmit = (e) => {
       e.preventDefault();
     
@@ -40,15 +37,12 @@ const Footer = () => {
         })
         .catch(error => {
           if (error.response && error.response.status === 404) {
-            // Handle the 404 error here if needed
             console.log(error);
           } else {
-            // Handle other errors here if needed
             console.log(error);
           }
         });
     }
-    // getting data function
     const getData = () => {
       axios.get('https://sheet.best/api/sheets/e7a8bead-e947-4de5-9421-8e17433a3fff')
         .then(response => {
@@ -57,16 +51,13 @@ const Footer = () => {
         .catch(error => {
           if (error.response && error.response.status === 404) {
             console.error('Error: Request failed with status code 404');
-            // Handle the 404 error here if needed
           } else {
             console.error('An error occurred:', error);
-            // Handle other errors here if needed
           }
         });
     }
     
   
-    // triggering function
     useEffect(()=>{
       getData();
     },[data])
@@ -110,6 +101,7 @@ const Footer = () => {
               </a>
               </div>
         </div>
+        <div className='footer__container-content-service-and-link-and-newsletter'>
         <div className='footer__container-content-services'>
           <h1>Our Services</h1>
           <Link to='/corporate-advisory'>{arrow} <p>Corporate Advisory</p></Link>
@@ -127,6 +119,7 @@ const Footer = () => {
           <Link to='/team'>{arrow} <p>Teams</p></Link>
           <Link to='/contact'>{arrow} <p>Contact Us</p></Link>
         </div>
+        
         <div className='footer__container-content-newsletter'>
           <h1>Newsletter</h1>
           <form onSubmit={handleSubmit}>
@@ -140,6 +133,7 @@ const Footer = () => {
           <button type='submit'>Submit</button>
           </div>
           </form>
+          </div>
           </div>
         </div>
         </div>

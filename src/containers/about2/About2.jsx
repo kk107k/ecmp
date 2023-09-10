@@ -7,6 +7,7 @@ import pic3 from '../../assets/about2 pic3.png'
 const About2 = () => {
   return (
     <div className='about2__container'>
+      <div className='about2__container-content'>
       <div className='about2__container-top-text'>
         <div className='about2__container-left-text'>
           <h2>Our Company</h2>
@@ -35,6 +36,7 @@ const About2 = () => {
            <img src={pic3} alt='pic3' id='pic3'/>
        
         </div>
+      </div>
       </div>
     </div>
   )

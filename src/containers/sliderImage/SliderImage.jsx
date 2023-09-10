@@ -13,9 +13,9 @@ import { Link } from 'react-router-dom';
 export default function SliderImage() {
   return (
     <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="0"
-    loop="true">
+    loop="true" autoplay-delay="5000" autoplay-disable-on-interaction="false">
     <swiper-slide><img src={mountain} alt="" />
-    <div class="slider-image__container">
+    <div class="slider-image__container-right">
       <div>
         <h1>Emerging Capital Management Partners</h1>
       </div>
@@ -39,7 +39,7 @@ export default function SliderImage() {
       </div>
       </div></swiper-slide>
     <swiper-slide><img src={museam} alt="" />
-    <div class="slider-image__container">
+    <div class="slider-image__container-right">
       <div>
         <h1>Delivering End-to-End Solutions for You</h1>
       </div>

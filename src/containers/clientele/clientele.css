@@ -9,7 +9,8 @@
 }
 
 .Clientele__container-content {
-    width: 85%;
+    width: 90%;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;

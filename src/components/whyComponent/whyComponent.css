@@ -6,16 +6,19 @@
     border-radius: 10px;
     width: 60%;
     margin: 10px;
+
 }
 
 .why__container-component hr {
     margin: auto;
     width: 90%;
     border-color: var(--color-text-lightblue);
+    
 }
 
 .why__container-component__heading-container {
     margin-bottom: 20px;
+    
 }
 .why__container-component__heading img {
     width: 50px;
@@ -27,6 +30,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px 0px 0px 0px;
+
 }
 
 .why__container-component__heading h3 {
@@ -38,6 +42,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
 
 .why__container-component__heading__line hr{
@@ -105,6 +111,6 @@
 
     .why__container-component__text {
         min-height: unset;
-        height: 70px;
+        height: 110px;
     }
 }

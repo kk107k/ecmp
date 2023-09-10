@@ -7,8 +7,6 @@ import ceo from '../../assets/S_ceo_n_cfo_services.png'
 import mnatrans from '../../assets/m_n_a_n_transactional.png'
 import technology from'../../assets/technology.png'
 import esg from '../../assets/esg_services.png'
-import { Service } from '../../components';
-
 const Services = () => {
   const servicesData = [
     {

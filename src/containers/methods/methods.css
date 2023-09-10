@@ -8,10 +8,10 @@
 
 .method__container-left {
     width: 100%;
-}
-
-.method__container-left_content img{
-    width: 100%;
+    background-image: url('../../assets/burj al arab.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .method__container-right {
@@ -47,4 +47,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .method__container_contents {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .method__container-left { 
+        height: 300px;
+    }
+    
+    
 }

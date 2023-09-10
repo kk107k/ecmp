@@ -30,10 +30,6 @@ const Methods = () => {
     <div className='method__container color_bg-lightblue'>
       <div className='method__container_contents'>
       <div className='method__container-left'>
-        <div className='method__container-left_content'>
-          <img src={burj} alt="image" />
-
-          </div>
       </div>
 
       <div className='method__container-right'>

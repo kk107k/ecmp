@@ -151,6 +151,33 @@ nav .content .links{
   top: 0;
 }
 
+.search-results ul{
+  border-top:rgb(255, 255, 255, 0.5) 1px solid;
+  position: fixed;
+  width: 84%;
+  height: 150px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #2E455C;
+}
+
+.search-results ul a{
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+  color: white;
+  overflow: hidden;
+  border-bottom: rgb(255, 255, 255, 0.5) 1px solid;
+}
+
+.search-results ul a:hover {
+  border-bottom: rgb(255, 255, 255, 1) 1px solid;
+}
+
+
 /* Responsive code start */
 @media screen and (max-width: 1250px){
   .wrapper nav{

@@ -6,13 +6,14 @@ const ServiceNavbar = () => {
   return (
     <div className='service-navbar__container'>
         <ul>
-            <li><Link to={'/Corporate-Advisory'}>Corporate Support</Link></li>
-            <li><Link to={'/Corporate-Finance'}>Corprate Finance</Link></li>
-            <li><Link to={'/Risk-Advisory'}>Risk Advisory</Link></li>
-            <li><Link to={'/Strategic-CEO-and-CFO-Services'}>Strategic CFO Services</Link></li>
-            <li><Link to={'/Transation-Management-And-M&A'}>Transaction and M & A</Link></li>
-            <li><Link to={'/ESG-Services'}>ESG Services</Link></li>
-            <li><Link to={'/Technology'}>Technology</Link></li>
+          <Link to={'/Corporate-Advisory'}><li>Corporate Support</li></Link>
+          <Link to={'/Corporate-Finance'}><li>Corprate Finance</li></Link>
+          <Link to={'/Risk-Advisory'}><li>Risk Advisory</li></Link>
+          <Link to={'/Strategic-CEO-and-CFO-Services'}><li>Strategic CFO Services</li></Link>
+          <Link to={'/Transation-Management-And-M&A'}><li>Transaction and M & A</li></Link>
+          <Link to={'/ESG-Services'}><li>ESG Services</li></Link>
+          <Link to={'/Technology'}><li>Technology</li></Link>
+
         </ul>
     </div>
   )

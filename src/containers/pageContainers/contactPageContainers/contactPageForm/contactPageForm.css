@@ -27,18 +27,22 @@
     text-align: center;
     color: var(--color-text-blue);
     margin-bottom: 20px;
+    margin: auto;
+    width: 90%;
 }
 .contact_page__container-form-title p {
     font-size: 0.8rem;
     text-align: center;
     color: var(--color-text-blue);
     margin-bottom: 30px;
+    margin: auto;
+    width: 90%;
 }
 
 .contact_page__container-form-inputs {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 
 .contact_page__container-form-name,
@@ -89,4 +93,21 @@
     height: 50px;
     width: 100%;
     max-width: 730px;
+}
+
+@media screen and (max-width: 428px){
+    .contact_page__container-form-name,
+.contact_page__container-form-contact_info,
+.contact_page__container-form-company{
+    flex-direction: column;
+}
+
+.contact_page__container-form-inputs input {
+    max-width: 397px;
+    width: unset;
+}
+
+.contact_page__container-form-submit input {
+    width: 100%;
+}
 }

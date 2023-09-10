@@ -1,11 +1,9 @@
 import React from 'react'
 import './about.css'
-import burj from '../../assets/burj khalifa.png'
 
 const About = () => {
   return (
     <div className='about__container' >
-   
    <div className='about__container'>
       <div className='about__container-content'>
         <h2>Explore Our Company</h2>
