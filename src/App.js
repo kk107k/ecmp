@@ -1,6 +1,5 @@
 import React from 'react'
-import axios from 'axios'
-import { Footer  } from './containers'
+import { Footer} from './containers'
 import {Navbar} from './components'
 import {Home, AboutPage, IndustriesPage, NewsPage, TeamsPage, ContactPage, CorporateAdvisory, CorporateFinance, ESG, RiskAdvisory, Strategy ,Technology ,TransactionManagement, News1, FaisalGaladari, FarrukhSiddiqui, KhamisMohamed, AhmedSaeed, JeremyShaw, GeorgeAbraham, ASPillai, RupaShyamraj, YousifAlSuwaidi, MonaZeineldin,ZahidRashid, KajChristenson, GarethWatts, BadrSoueidan} from './pages'
 import './App.css'

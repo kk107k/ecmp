@@ -1,10 +1,10 @@
 import React from 'react'
-import {About, About2, Clientele, Connect, Footer, Methods, Services, Why, ImageSlider, slidesData,} from '../containers'
-import { Navbar } from '../components'
+import {About, About2, Clientele, Connect, Methods, Services, Why, SliderImage} from '../containers'
+
 const Home = () => {
   return (
     <div>
-    <ImageSlider slides={slidesData} parentWidth={2000} />
+    <SliderImage />
     <Services /> 
     <About />
     <About2 />

@@ -9,8 +9,6 @@ export {default as Header} from './header/Header';
 export {default as Methods} from './methods/Methods';
 export {default as Services} from './services/Services';
 export {default as Why} from './why/Why';
-export {default as ImageSlider} from './imageSlider/ImageSlider';
-export {default as slidesData} from './imageSlider/slidesData';
 
 //Page containers
 
@@ -36,7 +34,9 @@ export {default as TeamPageHeading} from './pageContainers/teamPageContainers/te
 export {default as TeamPageBody1} from './pageContainers/teamPageContainers/teamPageBody1/TeamPageBody1';
 export {default as TeamPageBody2} from './pageContainers/teamPageContainers/teamPageBody2/TeamPageBody2';
 
+//test
 
+export {default as SliderImage} from './sliderImage/SliderImage';
 
 
 
