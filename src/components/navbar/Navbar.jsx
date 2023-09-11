@@ -141,9 +141,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="/" className="desktop-link">
+              <Link className="desktop-link">
                 Services
-              </a>
+              </Link>
               <input type="checkbox" id="show-features" name="show-features" />
               <label htmlFor="show-features">Services</label>
               <ul>
