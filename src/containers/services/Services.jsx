@@ -7,42 +7,51 @@ import ceo from '../../assets/S_ceo_n_cfo_services.png'
 import mnatrans from '../../assets/m_n_a_n_transactional.png'
 import technology from'../../assets/technology.png'
 import esg from '../../assets/esg_services.png'
+import { Link } from 'react-router-dom'
+
 const Services = () => {
   const servicesData = [
     {
       img: corporate,
       title: 'Corporate Advisory',
-      text: 'Comprehensive Corporate-Wide Support'
+      text: 'Comprehensive Corporate-Wide Support',
+      link: '/Corporate-Advisory'
     },
     {
       img: finance,
       title: 'Corporate Finance',
-      text: 'Financial Solutions Driving Performance'
+      text: 'Financial Solutions Driving Performance',
+      link: '/Corporate-Finance'
     },
     {
       img: risk,
       title: 'Risk Advisory',
-      text: 'Enterprise-wide Risk Assessment'
+      text: 'Enterprise-wide Risk Assessment',
+      link: '/Risk-Advisory'
     },
     {
       img: ceo,
       title: 'Strategic CEO & CFO Services',
-      text: 'Virtual CEO & CFO Services'
+      text: 'Virtual CEO & CFO Services',
+      link: '/Strategic-CEO-and-CFO-Services'
     },
     {
       img: mnatrans,
       title: 'M&A and Transactional',
-      text: 'Strategic & Working Capital Solutions'
+      text: 'Strategic & Working Capital Solutions',
+      link: 'Transation-Management-And-M&A'
     },
     {
       img: technology,
       title: 'Technology',
-      text: 'Digital Innovation'
+      text: 'Digital Innovation',
+      link: '/Technology'
     },
     {
       img: esg,
       title: 'ESG Services',
-      text: 'Corporate-wide Reviews & Solutions'
+      text: 'Corporate-wide Reviews & Solutions',
+      link: '/ESG-services'
     },
 
   ]
@@ -55,8 +64,9 @@ const Services = () => {
       </div>
       <div className='services__container-cards'>
   {servicesData.map((service, index) => (
+    
     <div className='services__container-cards-box'>
-    <a href='' key={service.title + index}>
+    <Link to={service.link} key={service.title + index}>
       <div className='services__container-cards-items'>
         {service.img && (
           <div className='services__container-cards-items-img'>
@@ -69,7 +79,7 @@ const Services = () => {
         </div>
 
       </div>
-    </a>
+    </Link>
     </div>
   ))}
 </div>

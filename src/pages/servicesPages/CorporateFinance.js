@@ -6,7 +6,7 @@ import image from '../../assets/Corporate_finance img.png'
 const CorporateFinance = () => {
 return (
   <div className='service-page__container color_bg-lightblue'>
-  <HeaderImage title="Corporate Advisory" />
+  <HeaderImage title="Corporate Finance" />
   <div className='service-page__container-content'>
     <div className='service-page__container-left'>
   <ServiceNavbar />

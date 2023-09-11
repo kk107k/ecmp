@@ -1,6 +1,7 @@
 import React from 'react'
 import './whyComponent.css'
 import arrow from '../../assets/arrow.png'
+import { Link } from 'react-router-dom'
 
 const why = ({img, title, text, button}) => {
   return (
@@ -22,12 +23,12 @@ const why = ({img, title, text, button}) => {
         <hr></hr>
         <div className='why__container-component__button-container'>
         <div className='why__container-component__button'>
-        <a href="">
+        <Link to='/about'>
           <p>
           Read More 
           </p>
           <img src={arrow}></img>
-        </a>
+        </Link>
         
         </div>
         </div>
