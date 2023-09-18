@@ -1,15 +1,16 @@
 .method__component-container-contents {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .method__component-container-contents_left {
     width: 20%;
+    max-width: 50px;
+    margin-right: 20px;
 }
 
 .method__component-container-contents_left img{
-    width: 50px;
+    width: 100%;
 }
 
 .method__component-container-contents_right {

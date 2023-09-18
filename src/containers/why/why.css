@@ -24,6 +24,7 @@
 .why__container__heading p {
     font-size: 0.9rem;
     margin: 0px 0px 40px 0px;
+    text-align: center;
     color: var(--color-text-lightblue);
     width: 95%;
 }

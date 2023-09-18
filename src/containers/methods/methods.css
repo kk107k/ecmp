@@ -46,8 +46,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
+
 
 @media screen and (max-width: 768px) {
     .method__container_contents {

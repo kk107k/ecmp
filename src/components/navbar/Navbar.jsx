@@ -3,6 +3,7 @@ import './navbar.css';
 import image from '../../assets/emcp logo w writing.png';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 
+
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -142,10 +143,10 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="desktop-link">
-                Services
+                Services <i class="fa-solid fa-caret-down"></i>
               </Link>
               <input type="checkbox" id="show-features" name="show-features" />
-              <label htmlFor="show-features">Services</label>
+              <label htmlFor="show-features">Services <i class="fa-solid fa-caret-down"></i></label>
               <ul>
                 <li>
                   <Link to="/Corporate-Advisory" className={location.pathname === '/Corporate-Advisory' ? 'active' : ''}>

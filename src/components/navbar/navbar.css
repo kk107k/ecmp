@@ -11,6 +11,10 @@
   position: fixed;
   width: 100%;
 }
+
+.links i{
+  margin-left: 5px;
+}
 .wrapper nav{
   position: relative;
   display: flex;
@@ -172,6 +176,7 @@ nav .content .links{
   overflow: hidden;
   border-bottom: rgb(255, 255, 255, 0.5) 1px solid;
 }
+
 
 .search-results ul a:hover {
   border-bottom: rgb(255, 255, 255, 1) 1px solid;
